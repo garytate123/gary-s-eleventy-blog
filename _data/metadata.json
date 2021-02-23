@@ -1,9 +1,9 @@
 {
-  "title": "Your Blog Name",
+  "title": "Gary Tate's Blog",
   "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "I am writing about my experiences as a of student of JAMStack",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "I am writing about my experiences as a of student of JAMStack",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
