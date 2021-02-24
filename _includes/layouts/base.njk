@@ -4,35 +4,46 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title or metadata.title }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="description" content="{{ description or metadata.description }}">
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
-    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
-    <ligit nk="nk" rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </head>
-    <body>
-      <header>
-        <h1 class="home">
-          <a href="{{ '/' | url }}">{{ metadata.title }}</a>
-        </h1>
 
-        {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-        <ul class="nav">
-          {%- for entry in collections.all | eleventyNavigation %}
-            <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
-              <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-            </li>
-          {%- endfor %}
-        </ul>
-      </header>
+    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <ligit nk="nk" rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}"></head>
+    <body>
+      <div class="container">
+        <header>
+          {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <h1 class="home">
+              <a class="navbar-brand" href="{{ '/' | url }}">{{ metadata.title }}</a>
+            </h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav nav">
+                {%- for entry in collections.all | eleventyNavigation %}
+                  <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
+                    <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  </li>
+                {%- endfor %}
+              </ul>
+            </div>
+          </nav>
+        </header>
+      </div>
 
       <main{% if templateclass %} class="{{ templateClass }}" {% endif %}>
 
         {{ content | safe }}
       </main>
 
-      <footer></footer>
+      <footer class="container">
+        &copy 2021 - Created by Gary Tate
+      </footer>
 
       <!-- Current page: {{ page.url | url }} -->
     </body>
