@@ -39,12 +39,13 @@
       <main{% if templateclass %} class="{{ templateClass }}" {% endif %}>
 
         {{ content | safe }}
+
       </main>
-
-      <footer class="container">
-        &copy 2021 - Created by Gary Tate
-      </footer>
-
+      <div class="container">
+        <footer class="footer">
+          &copy 2021 - Created by Gary Tate
+        </footer>
+      </div>
       <!-- Current page: {{ page.url | url }} -->
     </body>
   </html>
