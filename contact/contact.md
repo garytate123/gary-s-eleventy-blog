@@ -21,12 +21,17 @@ eleventyNavigation:
       <input name="email" type="email" id="inputEmail" class="form-control middle-contact-form-input" placeholder="Email address" required autofocus>
       <label for="message" class="sr-only">Message</label>
       <textarea type="textarea" id="message" class="form-control bottom-contact-form-input" placeholder="Your message" required></textarea>
-      <!-- add checkbox to sign up to mail chimp -->
-      <!-- <div class="checkbox mb-3">
+      <div class="checkbox mb-3">
         <label>
-          <input type="checkbox" value="remember-me"> Remember me
+          <input type="checkbox" name="newsletter" id="newsletter" value="newsletter"> Sign me up to the newsletter
         </label>
-      </div> -->
+      </div>
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" name="accept-terms-and-conditions" id="accept-terms-and-conditions" value="accept-terms-and-conditions" required> Accept Terms & Conditions
+        </label>
+        <a href="/t&c" target="_blank" ><p>Read T&C's</p></a>
+      </div>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Send Message</button>
     </form>
   </main>
