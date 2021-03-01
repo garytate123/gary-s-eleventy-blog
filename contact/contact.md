@@ -23,12 +23,12 @@ eleventyNavigation:
       <textarea type="textarea" id="message" class="form-control bottom-contact-form-input" placeholder="Your message" required></textarea>
       <div class="checkbox mb-3">
         <label>
-          <input type="checkbox" name="newsletter" id="newsletter" value="newsletter"> Sign me up to the newsletter
+          <input type="checkbox" name="newsletter" id="newsletter" value="signUp"> Sign me up to the newsletter
         </label>
       </div>
       <div class="checkbox mb-3">
         <label>
-          <input type="checkbox" name="accept-terms-and-conditions" id="accept-terms-and-conditions" value="accept-terms-and-conditions" required> Accept Terms & Conditions
+          <input type="checkbox" name="accept-terms-and-conditions" id="accept-terms-and-conditions" value="accepted T&Cs" required> Accept Terms & Conditions
         </label>
         <a href="/t&c" target="_blank" ><p>Read T&C's</p></a>
       </div>
