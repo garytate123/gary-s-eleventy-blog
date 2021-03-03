@@ -20,7 +20,7 @@ eleventyNavigation:
       <label for="inputEmail" class="sr-only">Email address</label>
       <input name="email" type="email" id="inputEmail" class="form-control middle-contact-form-input" placeholder="Email address" required autofocus>
       <label for="message" class="sr-only">Message</label>
-      <textarea type="textarea" id="message" class="form-control bottom-contact-form-input" placeholder="Your message" required></textarea>
+      <textarea type="textarea" name="message" id="message" class="form-control bottom-contact-form-input" placeholder="Your message" required></textarea>
       <div class="checkbox mb-3">
         <label>
           <input type="checkbox" name="newsletter" id="newsletter" value="signUp"> Sign me up to the newsletter
