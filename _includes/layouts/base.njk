@@ -23,6 +23,7 @@
             .insertBefore(m, p)
         }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/2b0b5856cbe1dd48f6b442099/039a8c86c67f5cd53e63a8502.js");
       </script>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
 
     <body>
@@ -60,5 +61,20 @@
         </footer>
       </div>
       <!-- Current page: {{ page.url | url }} -->
+      <script>
+        if (window.netlifyIdentity) {
+          window
+            .netlifyIdentity
+            .on("init", user => {
+              if (!user) {
+                window
+                  .netlifyIdentity
+                  .on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+              }
+            });
+        }
+      </script>
     </body>
   </html>
