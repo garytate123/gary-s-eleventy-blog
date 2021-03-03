@@ -12,7 +12,7 @@ eleventyNavigation:
 <br>
 
 <main class="text-center">
-    <form class="form-signin" name="contact" method="POST" data-netlify="true">
+    <form class="form-signin form-control" name="contact" method="POST" data-netlify="true">
     <h1 class="h1 mb-3 font-weight-normal">Contact Form</h1>
       <h4 class="h4 mb-3 font-weight-normal">Please fill out the form to send your message</h4>
       <label for="inputName" class="sr-only">Your name</label>
