@@ -5,6 +5,11 @@ templateClass: tmpl-post
 <div class="container">
 
   {{ content | safe }}
+
+  <p>
+    Post rating:
+    {{ rating }}/5</p>
+
   <hr>
   <ul>
     {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
