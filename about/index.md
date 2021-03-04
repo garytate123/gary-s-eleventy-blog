@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/home.njk
 title: About Me
 templateClass: tmpl-post
 eleventyNavigation:
@@ -7,4 +7,6 @@ eleventyNavigation:
   order: 3
 ---
 
+<div class="container">
 Hi, I'm Gary and I'm currently learning how to be a web developer using JAMStack.
+</div>

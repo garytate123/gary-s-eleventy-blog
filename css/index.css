@@ -21,6 +21,10 @@ body {
   color: var(--darkgray);
   background-color: var(--white);
 }
+.profile-photo {
+  width: 50%;
+  float: right;
+}
 p:last-child {
   margin-bottom: 0;
 }

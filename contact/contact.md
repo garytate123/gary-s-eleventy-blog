@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/home.njk
 title: Contact
 templateClass: tmpl-post
 eleventyNavigation:
@@ -7,7 +7,6 @@ eleventyNavigation:
   order: 4
 ---
 
-{% block pageTitle %}{% endblock pageTile %}
 <br>
 <br>
 
