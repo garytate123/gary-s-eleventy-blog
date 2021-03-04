@@ -1,53 +1,33 @@
 ---
-pagination:
-  data: collections
-  size: 1
-  alias: tag
-  filter:
-    - all
-    - nav
-    - post
-    - posts
-    - tagList
-  addAllPagesToCollections: true
 layout: layouts/base.njk
 templateClass: tmpl-post
-eleventyComputed:
-  title: Tagged “{{ tag }}”
-permalink: /tags/{{ tag }}/
+
 ---
 
 <div class="container">
   <h1>{{title}}</h1>
-  <div>
-    <h1>Tagged “{{ tag }}”</h1>
 
-    {% set postslist = collections[tag] %}
-    {% include "postslist.njk" %}
+</div>
 
-    <p>See
-      {# <a href="{{ '/tags/' | url }}">all tags</a>.</p> #}
-    </div>
+<hr/>
+<img src="{{thumbnail}}"/>
 
-    <hr/>
-    <img src="{{thumbnail}}"/>
+<hr/>
+{{ content | safe }}
 
-    <hr/>
-    {{ content | safe }}
-
-    <hr>
-    <ul>
-      {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-      {%- if nextPost %}
-        <li>Next:
-          <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a>
-        </li>
-      {% endif %}
-      {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-      {%- if previousPost %}
-        <li>Previous:
-          <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a>
-        </li>
-      {% endif %}
-    </ul>
-  </div>
+<hr>
+<ul>
+  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+  {%- if nextPost %}
+    <li>Next:
+      <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a>
+    </li>
+  {% endif %}
+  {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+  {%- if previousPost %}
+    <li>Previous:
+      <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a>
+    </li>
+  {% endif %}
+</ul>
+</div>
