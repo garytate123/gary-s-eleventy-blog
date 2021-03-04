@@ -8,11 +8,34 @@ templateClass: tmpl-post
   <h1>{{title}}</h1>
 
   <hr/>
-  <img src="{{thumbnail}}"/>
+  <div class="row">
+    <div class="col-md-6">
+      {{ content | safe }}
+    </div>
+    <div class="col-md-6">
+      <img src="{{thumbnail}}"/>
+      <br/>
+      <br/>
+      <hr>
+      <br/>
+      {# blogs post #}
+      <div>
+        {% set maxPosts = collections.posts.length | min(5) %}
+        <h1>Latest
+          {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }}
+            Posts{% endif %}
+        </h1>
 
-  <hr/>
-  {{ content | safe }}
+        {% set postslist = collections.posts | head(-5) %}
+        {% set postslistCounter = collections.posts | length %}
+        {% include "postslist.njk" %}
 
+        <p>More posts can be found in
+          <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+      </div>
+    </div>
+
+  </div>
   <hr>
   <ul>
     {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
