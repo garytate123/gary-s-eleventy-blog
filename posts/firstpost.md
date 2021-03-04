@@ -5,7 +5,7 @@ description: First things first, let me introduce myself.
 "description:": This is a blog post about me.
 tags:
   - About Me
-date: 2021-01-01
+date: 2021-03-04T21:14:40.516Z
 thumbnail: /images/uploads/gary-tate-.jpg
 ---
 ## **Hello, I'm Gary!**
