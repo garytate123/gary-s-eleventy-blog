@@ -31,7 +31,7 @@ p:last-child {
 p,
 .tmpl-post li,
 img {
-  max-width: 37.5em; /* 600px /16 */
+  width: 100%;
 }
 p,
 .tmpl-post li {
