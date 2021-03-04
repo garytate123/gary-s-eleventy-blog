@@ -23,8 +23,7 @@ collections:
           label: "Tags",
           name: "tags",
           widget: "list",
-          field:
-            { label: "Tags", name: "tags", widget: "string", default: "post" },
+          field: { label: "Tags", name: "tags", widget: "string" },
         }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
