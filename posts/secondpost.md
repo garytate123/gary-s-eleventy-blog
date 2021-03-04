@@ -4,17 +4,16 @@ title: Sessions 1 JAMStack Bootcamp
 description: This session was an introduction session.
 tags:
   - post
-date: 2021-01-05
+  - Tasks
+date: 2021-03-04T21:22:28.273Z
 thumbnail: /images/uploads/freecodecampsignup.png
 ---
-During this session, we where ask to complete some simple tasks.
+During this session, we were introduced to the course and asked to complete some simple tasks.
 
 The tasks where:
 
 1. Sign up to FreeCodeCamp
-
 2. Sign up to Github
-
 3. Sign up to Slack
 
 ## 1. My FreeCodeCamp Profile
