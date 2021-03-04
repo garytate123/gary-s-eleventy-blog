@@ -2,11 +2,20 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 
+
 ---
 
 <div class="container">
   <h1>{{title}}</h1>
 
+  <br>
+
+  <h2>
+    <a href="{{ tagUrl | url }}" class="post-tag">{{ tags }}</a>
+  </h2>
+
+  <p>See
+    <a href="{{ '/tags/' | url }}">all tags</a>.</p>
   <hr/>
   <div class="row">
     <div class="col-md-6">
