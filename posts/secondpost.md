@@ -1,19 +1,30 @@
 ---
-title: Why become a web developer?.
-description: This is a post about why I want to become a a web developer.
-date: 2021-01-05
-tags:
-  - web development
 layout: layouts/post.njk
+title: Sessions 1 JAMStack Bootcamp
+description: This session was an introduction session.
+tags:
+  - post
+date: 2021-01-05
+thumbnail: /images/uploads/freecodecampsignup.png
 ---
+During this session, we where ask to complete some simple tasks.
 
-So why do I want to be a web developer?
+The tasks where:
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+1. Sign up to FreeCodeCamp
 
-## Section Header
+2. Sign up to Github
 
-<a href="{{ '/posts/firstpost/' | url }}">First post</a>
-<a href="{{ '/posts/thirdpost/' | url }}">Third post</a>
+3. Sign up to Slack
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+## 1. My FreeCodeCamp Profile
+
+![Free Code Camp Photo](/images/uploads/freecodecampsignup.png)
+
+## 2. My Github Profile
+
+![Github Profile Photo](/images/uploads/gitsignup.png)
+
+## 3. My Github Profile
+
+![Slack Profile Photo](/images/uploads/slacksignup.png)
