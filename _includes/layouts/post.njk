@@ -4,11 +4,12 @@ templateClass: tmpl-post
 ---
 <div class="container">
 
-  {{ content | safe }}
-
+  <img src="{{thumbnail}}"/>
   <p>
     Post rating:
     {{ rating }}/5</p>
+  <hr/>
+  {{ content | safe }}
 
   <hr>
   <ul>
