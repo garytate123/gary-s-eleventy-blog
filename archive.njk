@@ -6,7 +6,24 @@ eleventyNavigation:
   order: 2
 ---
 <div class="container">
-  <h1>Archive</h1>
-  {% set postslist = collections.posts %}
-  {% include "postslist.njk" %}
+  <div class="row">
+    <div class="col-md-6">
+      <h1>Archive</h1>
+      <br>
+      {% set postslist = collections.posts %}
+      {% include "postslist.njk" %}
+    </div>
+
+    <div class="col-md-6">
+      <h1>Tags</h1>
+      <br>
+      <h1>
+        {% for tag in collections.tagList %}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+        {% endfor %}
+      </h1>
+
+    </div>
+  </div>
 </div>
