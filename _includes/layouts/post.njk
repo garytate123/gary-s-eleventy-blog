@@ -18,7 +18,7 @@ templateClass: tmpl-post
         <p>Posts tags.</p>
         <h3>
           {% for tag in tags %}
-            {%- if collections.tagList.indexOf(tag) != 1 -%}
+            {%- if collections.tagList.indexOf(tag) != -1 -%}
               {% set tagUrl %}/tags/{{ tag }}/{% endset %}
               <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
             {%- endif -%}
