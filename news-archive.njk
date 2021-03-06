@@ -1,0 +1,34 @@
+---
+layout: layouts/home.njk
+permalink: /news/
+eleventyNavigation:
+  key: News Archive
+  order: 3
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>News Archive</h1>
+            <br>
+            {% set postslist = collections.posts %}
+            {% include "postslist.njk" %}
+        </div>
+
+        <div class="col-md-6">
+            <div>
+                <h1>Tags
+                    <a href="{{ tagUrl | url }}" class="post-tag">News</a>
+                    <a href="{{ tagUrl | url }}" class="post-tag">Blogs</a>
+                </h1>
+            </div>
+            <br>
+            <h1>
+                {% for tag in collections.tagList %}
+                    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                    <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+                {% endfor %}
+            </h1>
+
+        </div>
+    </div>
+</div>

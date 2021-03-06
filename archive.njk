@@ -2,20 +2,25 @@
 layout: layouts/home.njk
 permalink: /posts/
 eleventyNavigation:
-  key: Archive
+  key: Blog Archive
   order: 2
 ---
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <h1>Archive</h1>
+      <h1>Blogs Archive</h1>
       <br>
       {% set postslist = collections.posts %}
       {% include "postslist.njk" %}
     </div>
 
     <div class="col-md-6">
-      <h1>Tags</h1>
+      <div>
+        <h1>Tags
+          <a href="{{ tagUrl | url }}" class="post-tag">News</a>
+          <a href="{{ tagUrl | url }}" class="post-tag">Blogs</a>
+        </h1>
+      </div>
       <br>
       <h1>
         {% for tag in collections.tagList %}
