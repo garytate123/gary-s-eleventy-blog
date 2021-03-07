@@ -21,17 +21,19 @@ The tasks where:
 
 
 
+
+
 ## 1. My FreeCodeCamp Profile 
 
-You can visit my Free Code Camp profile here:
+You can visit my Free Code Camp profile here:[ @fcc15a639ce-884e-42dd-a45c-8644de8a5a5b](https://www.freecodecamp.org/fcc15a639ce-884e-42dd-a45c-8644de8a5a5b)
 
-<!--StartFragment-->
 
-## [@fcc15a639ce-884e-42dd-a45c-8644de8a5a5b](https://www.freecodecamp.org/fcc15a639ce-884e-42dd-a45c-8644de8a5a5b)
-
-<!--EndFragment-->
 
 ![Free Code Camp](/images/uploads/freecodecampsignup.png "Fre Code Camp")
+
+
+
+
 
 ## 2. My Github Profile [\#](https://garytateblog.netlify.app/posts/secondpost/#2.-my-github-profile)
 
