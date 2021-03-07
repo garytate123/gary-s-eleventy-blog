@@ -4,9 +4,6 @@ title: Introduction
 description: "This post is a small introduction. "
 tags:
   - About Me
-  - Github
-  - Slack
-  - Free Code Camp
 date: 2021-03-04T22:17:38.976Z
 thumbnail: /images/uploads/gary-tate-.jpg
 ---
