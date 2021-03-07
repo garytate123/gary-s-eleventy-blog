@@ -6,14 +6,12 @@ tags:
   - Github
   - Slack
   - Free Code Camp
-date: 2021-03-07T20:57:54.892Z
+date: 2021-03-07T21:08:08.987Z
 thumbnail: /images/uploads/screenshot-2021-03-07-205653.png
 ---
 <!--StartFragment-->
 
 During this session, we were introduced to the course and asked to complete three simple tasks. 
-
-
 
 The tasks where:
 
@@ -44,7 +42,5 @@ You can visit my Github profile [here](https://github.com/garytate123)
 ## 3. My Github Profile
 
 ![](/images/uploads/slacksignup.png)
-
-
 
 <!--EndFragment-->
