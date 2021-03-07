@@ -51,11 +51,13 @@ eleventyNavigation:
     <p class="lead"></p>
     <hr class="my-4">
 
-    {% include "postslist.njk" %}
+    {% set postslist = collections.news | head(-5) %}
+    {% set postslistCounter = collections.news | length %}
+    {% include "newslist.njk" %}
 
     <p class="lead">
       {# need to change the url to the news post  #}
-      <a class="btn btn-light btn-lg" href="{{ '/posts/' | url }}" role="button">Read more >></a>
+      <a class="btn btn-light btn-lg" href="{{ '/news/' | url }}" role="button">Read more >></a>
     </p>
   </div>
 </div>

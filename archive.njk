@@ -11,14 +11,15 @@ eleventyNavigation:
       <h1>Blogs Archive</h1>
       <br>
       {% set postslist = collections.posts %}
+      {% set postslistCounter = collections.news | length %}
       {% include "postslist.njk" %}
     </div>
 
     <div class="col-md-6">
       <div>
         <h1>Tags
-          <a href="{{ tagUrl | url }}" class="post-tag">News</a>
-          <a href="{{ tagUrl | url }}" class="post-tag">Blogs</a>
+          <a href="{{ '/news/' | url }}" class="post-tag">News</a>
+          <a href="{{ '/posts/'| url }}" class="post-tag">Blogs</a>
         </h1>
       </div>
       <br>
