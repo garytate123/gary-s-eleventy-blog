@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Session 5 Static Site Generators
+title: Session 5 - Static Site Generators
 description: This session will go into details about static site builders and
   give an example of just how quickly you can put something online using free
   technologies. We will be using the JAMStack website to create an example
