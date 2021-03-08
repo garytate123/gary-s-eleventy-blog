@@ -28,19 +28,13 @@ The tasks from the session are:
 2. Commit your changes to git
 3. Push your changes to your master branch to deploy your site to netlify
 
-
-
 ## 1. Deploy a JAMstack, 11ty, netlify solution
 
 ![](/images/uploads/can_you_serve_pages_locally.png)
 
-
-
 ## 2. Install your site locally and run
 
 ![](/images/uploads/screenshot_2021-02-23_154150.png)
-
-
 
 ## 3. Complete tasks 1 and 3 from the yellow box on the homepage
 
@@ -56,24 +50,16 @@ The tasks from the session are:
 
 ![](/images/uploads/screenshot_2021-02-23_154315.png)
 
-
-
 ## 5. Add some new pages to your site with links in the navigation
 
 ![](/images/uploads/screenshot_2021-02-23_163609.png)
 
-
-
-6. Commit your changes to git
+6. ## 6. Commit your changes to git
 
 ![](/images/uploads/screenshot_2021-02-23_162944.png)
 
-
-
-7. Push your changes to your master branch to deploy your site to netlify
+7. ## 7. Push your changes to your master branch to deploy your site to netlify
 
 ![](/images/uploads/screenshot_2021-02-23_155233.png)
-
-
 
 <!--EndFragment-->
