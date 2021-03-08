@@ -53,7 +53,7 @@ eleventyNavigation:
 
     {% set postslist = collections.news | head(-5) %}
     {% set postslistCounter = collections.news | length %}
-    {% include "newslist.njk" %}
+    {% include "newspost.njk" %}
 
     <p class="lead">
       {# need to change the url to the news post  #}
