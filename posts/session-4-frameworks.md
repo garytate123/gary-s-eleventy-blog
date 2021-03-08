@@ -28,14 +28,10 @@ Create a HTML page using bootstrap to advertise your favourite band.
 
 <!--StartFragment-->
 
-
-
-1. Clone a copy of the framework example and get it running localy 
+1. Clone a copy of the framework example and get it running locally 
 2. Add bootstrap CSS and JS to it. (At that point nothing will look/act differently.) 3. Add a Carousel component in the main section with some images.
 3. Update the layout to use bootstrap layout classes.
 
    The result of the tasks can be found [here](https://garytate123.github.io/bootstrap4-project/)
 
    ![](/images/uploads/screenshot_2021-02-23_152656.png)
-
-   <in a browser!--EndFragment-->
