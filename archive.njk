@@ -11,7 +11,7 @@ eleventyNavigation:
       <h1>Blog Archive</h1>
       <br>
       {% set postslist = collections.posts | head(-5) %}
-      {% set postslistCounter = collections.news | length %}
+      {% set postslistCounter = collections.posts | length %}
       {% include "postslist.njk" %}
     </div>
 
