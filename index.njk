@@ -45,19 +45,3 @@ eleventyNavigation:
   </div>
 </div>
 <br>
-<div class="container">
-  <div class="jumbotron">
-    <h1 class="display-4">Latest News</h1>
-    <p class="lead"></p>
-    <hr class="my-4">
-
-    {% set postslist = collections.news | head(-5) %}
-    {% set postslistCounter = collections.news | length %}
-    {% include "newspost.njk" %}
-
-    <p class="lead">
-      {# need to change the url to the news post  #}
-      <a class="btn btn-light btn-lg" href="{{ '/news/' | url }}" role="button">Read more >></a>
-    </p>
-  </div>
-</div>

@@ -3,8 +3,8 @@ layout: layouts/home.njk
 title: Tip Calculator
 templateClass: tmpl-post
 eleventyNavigation:
-key: Tip Calculator
-order: 9
+  key: Tip Calculator
+  order: 6
 ---
 
 <div class="container">
