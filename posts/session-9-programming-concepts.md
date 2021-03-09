@@ -5,7 +5,7 @@ description: This session will introduce the learners to JavaScript. They will
   learn about variables/ data types, the console and arithmetic operators
 tags:
   - JavaScript
-date: 2021-03-08T19:49:48.562Z
+date: 2021-03-09T13:40:54.059Z
 thumbnail: /images/uploads/screenshot-2021-03-08-195137.png
 ---
 The tasks for this session are:
@@ -39,10 +39,12 @@ Extension: round the figure to 2 DP and display the tip amount.
 
 Make a Procedural Function in Javascript.
 
-
+\--------------------------------------------------------------------------
 
 ## [Challenge results ](https://garytateblog.netlify.app/tip-calculator/)
 
 You can visit my tip calculator [here](https://garytateblog.netlify.app/tip-calculator/) and also see the completed tasks. 
+
+![JavaScript Projects](/images/uploads/screenshot-2021-03-09-133722.png "JavaScript Projects")
 
 <!--EndFragment-->
