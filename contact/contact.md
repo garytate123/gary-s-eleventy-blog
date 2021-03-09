@@ -10,8 +10,7 @@ eleventyNavigation:
 <br>
 <br>
 
-<main class="text-center">
-<div class="container">
+<div class="text-center">
 <!-- Contact info -->
 <div class="row">
 <div class="col-md-6">
@@ -55,4 +54,3 @@ eleventyNavigation:
     </div>
 </div>
 </div>
-  </main>

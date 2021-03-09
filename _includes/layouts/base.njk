@@ -50,17 +50,19 @@
         </header>
       </div>
 
-      <main{% if templateclass %} class="{{ templateClass }}" {% endif %}>
-
-        {{ content | safe }}
-
+      <main {% if templateclass %} class="{{ templateClass }}" {% endif %}>
+        <div class="container">
+          {{ content | safe }}
+        </div>
       </main>
-      <div class="container">
-        <footer class="footer">
+      <div class="container footer">
+        <footer>
           &copy 2021 - Created by Gary Tate
         </footer>
       </div>
       <!-- Current page: {{ page.url | url }} -->
+
+      {# ------------------------------------------------------------- #}
       <script>
         if (window.netlifyIdentity) {
           window

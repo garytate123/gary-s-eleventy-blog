@@ -7,10 +7,6 @@ eleventyNavigation:
   order: 5
 ---
 
-<div class="container">
-
 ## This is my social media page
 
 Here you will be able to see link to my social media. Soon!
-
-</div>
