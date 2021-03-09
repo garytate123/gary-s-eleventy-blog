@@ -8,6 +8,11 @@ order: 9
 ---
 
 <div class="container">
+<div class="text-center">
+    <h1>JavaScript Projects</h1>
+    <hr>
+    <br>
+  </div>
 <div class="row">
 <div class="col-md-4">
 
