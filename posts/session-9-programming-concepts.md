@@ -39,4 +39,10 @@ Extension: round the figure to 2 DP and display the tip amount.
 
 Make a Procedural Function in Javascript.
 
+
+
+## [Challenge results ](https://garytateblog.netlify.app/tip-calculator/)
+
+You can visit my tip calculator [here](https://garytateblog.netlify.app/tip-calculator/) and also see the completed tasks. 
+
 <!--EndFragment-->
