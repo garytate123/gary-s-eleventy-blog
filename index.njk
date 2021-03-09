@@ -4,44 +4,43 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-<div class="container">
-  <div class="jumbotron">
-    <h1 class="display-4">Hello there.</h1>
-    <p class="lead">Welcome to my blog. This blog will mainly be focused on my learning about JAMStack.</p>
-    <hr class="my-4">
-    <p>If you would like to visit my online web developers profile. Hit the lovely designed Bootstrap button below.
-    </p>
-    <p class="lead">
-      <a class="btn btn-light btn-lg" href="https://www.gt-web-dev.site/" role="button">Visit online portfolio</a>
+
+<div class="jumbotron">
+  <h1 class="display-4">Hello there.</h1>
+  <p class="lead">Welcome to my blog. This blog will mainly be focused on my learning about JAMStack.</p>
+  <hr class="my-4">
+  <p>If you would like to visit my online web developers profile. Hit the lovely designed Bootstrap button below.
+  </p>
+  <p class="lead">
+    <a class="btn btn-light btn-lg" href="https://www.gt-web-dev.site/" role="button">Visit online portfolio</a>
+  </p>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <img class="profile-photo" src="img\gary-tate-.jpg">
+    <h4>Hi, I'm Gary Tate...</h4>
+    <p>
+      I'm currently learning how to be a JAMSTack developer with The Coder Guild.</p>
+
+    <p>Even though this blog will be focused on my learning during my time on the JAMStack Bootcamp with The Coders Guild, I would like to start by introducing myself. I'm just over the grand age of 40 and I'm still crazy about learning as much as I can about web development. I'm fairly new to coding but so far, I'm loving the challenge.</p>
+    <p>This blog will be used to evidence my completed tasks and the extra learning that I will undertake throughout the course.
     </p>
   </div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <img class="profile-photo" src="img\gary-tate-.jpg">
-      <h4>Hi, I'm Gary Tate...</h4>
-      <p>
-        I'm currently learning how to be a JAMSTack developer with The Coder Guild.</p>
+  <div class="col-md-6">
+    {% set maxPosts = collections.posts.length | min(5) %}
+    <h1>Latest
+      {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }}
+        Posts{% endif %}
+    </h1>
 
-      <p>Even though this blog will be focused on my learning during my time on the JAMStack Bootcamp with The Coders Guild, I would like to start by introducing myself. I'm just over the grand age of 40 and I'm still crazy about learning as much as I can about web development. I'm fairly new to coding but so far, I'm loving the challenge.</p>
-      <p>This blog will be used to evidence my completed tasks and the extra learning that I will undertake throughout the course.
-      </p>
-    </div>
-    <div class="col-md-6">
-      {% set maxPosts = collections.posts.length | min(5) %}
-      <h1>Latest
-        {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }}
-          Posts{% endif %}
-      </h1>
+    {% set postslist = collections.posts | head(-5) %}
+    {% set postslistCounter = collections.posts | length %}
+    {% include "postslist.njk" %}
 
-      {% set postslist = collections.posts | head(-5) %}
-      {% set postslistCounter = collections.posts | length %}
-      {% include "postslist.njk" %}
-
-      <p>More posts can be found in
-        <a href="{{ '/posts/' | url }}">the archive</a>.</p>
-    </div>
+    <p>More posts can be found in
+      <a href="{{ '/posts/' | url }}">the archive</a>.</p>
   </div>
 </div>
+
 <br>
