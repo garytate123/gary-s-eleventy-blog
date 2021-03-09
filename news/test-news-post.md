@@ -4,7 +4,6 @@ title: Test news post
 description: This is our latest news about...
 tags:
   - tech
-  - news
 date: 2021-03-05T23:35:20.628Z
 thumbnail: /images/uploads/freecodecampsignup.png
 ---
