@@ -1,4 +1,10 @@
-# eleventy-base-blog
+# JAMstack eleventy / netlify - blog
+
+## Introduction
+This blog site is a project from my time on The Coders Guild - JAMstck Bootcamp. I have used this blog project to document my learning whilst studying on the bootcamp. You can visit the blog here https://garytateblog.netlify.app/
+
+
+<hr>
 
 A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
 
