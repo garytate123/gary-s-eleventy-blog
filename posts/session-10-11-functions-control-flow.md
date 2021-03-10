@@ -6,7 +6,7 @@ description: This session learners will be taught about how to write a function
   run. They will be introduced to control flow and how to use logic inside of a
   function to return an output.
 tags:
-  - "JavaScript "
+  - JavaScript
 date: 2021-03-10T22:00:08.236Z
 thumbnail: /images/uploads/screenshot-2021-03-10-215831.png
 ---
