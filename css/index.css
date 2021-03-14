@@ -7,6 +7,7 @@
   --navy: #17050f;
   --blue: #082840;
   --white: #fff;
+  --navbar: #8ac4d0;
 }
 * {
   box-sizing: border-box;
@@ -138,7 +139,7 @@ pre {
 
 /* Nav */
 nav {
-  background-color: #8ac4d0;
+  background-color: var(--navbar);
 }
 .nav {
   padding: 0;
@@ -211,6 +212,24 @@ nav {
 .post-tag:hover {
   text-decoration: none;
   background-color: var(--darkgray);
+  transition: 1s;
+}
+.news-tag {
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.625em; /* 10px /16 */
+  padding: 6px 6px;
+  margin-bottom: 0.5em;
+  background-color: rgb(248, 248, 37);
+
+  border-radius: 0.4em;
+  text-decoration: none;
+  transition: 1s;
+}
+.news-tag:hover {
+  text-decoration: none;
+  background-color: rgb(187, 187, 31);
   transition: 1s;
 }
 
@@ -288,4 +307,15 @@ footer {
   margin-bottom: 20px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+/* styling for javascript projects  */
+.box-styling {
+  background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #30c7ec 47%,
+    #46aef7 100%
+  );
+  border: black solid 2px;
 }
