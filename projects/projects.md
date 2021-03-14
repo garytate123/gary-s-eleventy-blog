@@ -6,6 +6,57 @@ eleventyNavigation:
   key: Projects
   order: 2
 ---
+<!-- Website Projects starts here -->
+<div class="text-center">
+    <h1>Website Projects</h1>
+    <hr>
+    <br>
+    <!-- Website images on computer starts here -->
+    <div class="row"> 
+    <!-- First website image starts here -->
+    <div class="col-md-3">
+    <div class="website-images">
+    <label>Gary Tate's Web Dev Profile 
+        <a href="https://gt-web-dev.site/" target="_blank"><img src="/img/websites/Gary Tate on computer image.jpg" alt="Photo of Gary Tate's web development profile website on a computer"></a>
+    </label>
+    </div>
+    </div>
+    <!-- First website image ends here -->
+    <!-- Second website image starts here -->
+    <div class="col-md-3">
+    <div class="website-images">
+    <label>Photography Blog Website
+      <a href="https://garytate-photography-blog.netlify.app" target="_blank"><img src="/img/websites/Photography on computer image.jpg" alt="Photo of a Photography blog website on a computer"></a>  
+    </div>
+    </label> 
+    </div>
+    <!-- Second website image ends here -->
+    <!-- Third website image starts here -->
+    <div class="col-md-3">
+    <div class="website-images">
+    <label>Band Profile Website 
+        <a href="https://garytate-band-site.netlify.app" target="_blank"><img src="/img/websites/Band website on computer image.jpg" alt="Photo of bands profile website on a computer">
+    </a>
+    </label>
+    </div>
+    </div>
+    <!-- Third website image ends here -->
+    <!-- Forth website image starts here -->
+    <div class="col-md-3">
+    <div class="website-images">
+    <label>Static Website
+       <a href="https://garytate-static-site.netlify.app" target="_blank"><img src="/img/websites/Static site website on computer image.jpg" alt="Photo of static website on a computer"></a> 
+    </label>
+    </div>
+    </div>
+    <!-- Forth website image ends here -->
+    </div>
+    <!-- Website images on computer starts here -->
+</div>
+ <!-- Website Projects starts here --> 
+ <br>
+ <br>
+<hr>
 <!-- JavaScript Projects starts here -->
 <div class="text-center">
     <h1>JavaScript Projects</h1>
@@ -91,15 +142,8 @@ eleventyNavigation:
 <!-- JavaScript Projects ends here -->
 <br>
 <br>
-<!-- Website Projects starts here -->
-<div class="text-center">
-    <hr>
-    <h1>Website Projects</h1>
-    <hr>
-    <br>
-</div>
 
- <!-- Website Projects starts here --> 
+
 
 
 
