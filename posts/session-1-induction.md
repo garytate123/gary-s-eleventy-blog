@@ -1,7 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Session 1 - Induction
-description: The first session of the course was our induction.
+description: This session covers what the learners should expect to be learning
+  about on this course.
 tags:
   - Github
   - Slack
