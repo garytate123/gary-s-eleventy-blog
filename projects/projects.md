@@ -1,10 +1,10 @@
 ---
 layout: layouts/home.njk
-title: Tip Calculator
+title: Projects
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Tip Calculator
-  order: 6
+  key: Projects
+  order: 2
 ---
 
 <div class="text-center">
