@@ -1,7 +1,9 @@
 ---
 layout: layouts/post.njk
 title: Session 2 - Source Control
-description: In this session we looked at using Git and Github for our Source Control
+description: This session covers the concepts of using source control,
+  specifically git. The learners will be exposed to github using github desktop
+  and the CLI to demonstrate the process of using git.
 tags:
   - Git
   - Github
