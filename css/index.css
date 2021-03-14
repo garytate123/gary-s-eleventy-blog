@@ -313,9 +313,9 @@ footer {
 .box-styling {
   background-image: radial-gradient(
     circle 248px at center,
-    #16d9e3 0%,
-    #30c7ec 47%,
-    #46aef7 100%
+    #7bf8ff 0%,
+    #5fd5f3 47%,
+    #8ac4d0 100%
   );
   border: black solid 2px;
 }
