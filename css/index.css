@@ -311,12 +311,11 @@ footer {
 
 /* styling for javascript projects  */
 .box-styling {
-  background: rgb(138, 196, 208);
-  background: linear-gradient(
-    0deg,
-    rgba(138, 196, 208, 1) 10%,
-    rgba(255, 255, 255, 1) 100%
+  background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #30c7ec 47%,
+    #46aef7 100%
   );
-  border: none;
-  /* height: 450px; */
+  border: black solid 2px;
 }
