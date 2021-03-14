@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Session 3 - Semantic HTML & Accessibility
 description: This session explains why using semantic HTML is good for SEO
   robots, developers and accessibility. The learners will be shown some facts
-  about disability and have accessibility explained to them
+  about disability and have accessibility explained to them.
 tags:
   - HTML
   - Accessibility
