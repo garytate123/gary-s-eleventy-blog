@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Lunch & Learn Session 3 - Interview Technique
 description: Technique for Tech Interviews
 tags:
-  - Find Work
+  - Finding Work
 date: 2021-03-16T14:11:52.610Z
 thumbnail: /images/uploads/christina-wocintechchat-com-vzfgh3rapzm-unsplash.jpg
 ---
