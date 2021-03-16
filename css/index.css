@@ -319,6 +319,10 @@ footer {
     #8ac4d0 100%
   ); */
   border: black solid 2px;
+  transition: 0.4s;
+}
+.box-styling:hover {
+  box-shadow: 0 0px 30px var(--darkgray);
 }
 
 /* Website Images on Projects page */
@@ -330,6 +334,6 @@ footer {
 }
 
 .website-images:hover {
-  transform: scale(1.1);
+  box-shadow: 0 0px 30px var(--darkgray);
   transition: 0.4s;
 }
