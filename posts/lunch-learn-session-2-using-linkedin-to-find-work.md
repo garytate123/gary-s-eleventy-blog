@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Lunch & Learn session 2 - Using LinkedIn to Find Work
+title: Lunch & Learn Session 2 - Using LinkedIn to Find Work
 description: Using LinkedIn to Find Work
 tags:
   - LinkedIn
